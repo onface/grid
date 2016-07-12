@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+</head>
+<body>
+<h1 id="woke-grid">woke-grid</h1>
+<blockquote>
+<p>24格的栅格化</p>
+</blockquote>
+<p>栅格化的设计目的是统一布局，在前端目的是快速开发。使用 <code>m-grid</code> 包含 <code>m-grid-数字</code> 组成布局。 <code>m-grid-数字</code> 的数字只和需要等于 <code>24</code>。</p>
+<link rel="stylesheet" href="index.css">
+
+<h2 id="1-24">1-24</h2>
+<div class="markrun markrun--html" >
+	<div class="markrun-code" >
+		
+<div class="m-grid">
+    <div class="m-grid-1">m-grid-1</div><div class="m-grid-23">m-grid-23</div>
+    <div class="m-grid-2">m-grid-2</div><div class="m-grid-22">m-grid-22</div>
+    <div class="m-grid-3">m-grid-3</div><div class="m-grid-21">m-grid-21</div>
+    <div class="m-grid-4">m-grid-4</div><div class="m-grid-20">m-grid-20</div>
+    <div class="m-grid-5">m-grid-5</div><div class="m-grid-19">m-grid-19</div>
+    <div class="m-grid-6">m-grid-6</div><div class="m-grid-18">m-grid-18</div>
+    <div class="m-grid-7">m-grid-7</div><div class="m-grid-17">m-grid-17</div>
+    <div class="m-grid-8">m-grid-8</div><div class="m-grid-16">m-grid-16</div>
+    <div class="m-grid-9">m-grid-9</div><div class="m-grid-15">m-grid-15</div>
+    <div class="m-grid-10">m-grid-10</div><div class="m-grid-14">m-grid-14</div>
+    <div class="m-grid-11">m-grid-11</div><div class="m-grid-13">m-grid-13</div>
+    <div class="m-grid-12">m-grid-12</div><div class="m-grid-12">m-grid-12</div>
+    <div class="m-grid-13">m-grid-13</div><div class="m-grid-11">m-grid-11</div>
+    <div class="m-grid-14">m-grid-14</div><div class="m-grid-10">m-grid-10</div>
+    <div class="m-grid-15">m-grid-15</div><div class="m-grid-9">m-grid-9</div>
+    <div class="m-grid-16">m-grid-16</div><div class="m-grid-8">m-grid-8</div>
+    <div class="m-grid-17">m-grid-17</div><div class="m-grid-7">m-grid-7</div>
+    <div class="m-grid-18">m-grid-18</div><div class="m-grid-6">m-grid-6</div>
+    <div class="m-grid-19">m-grid-19</div><div class="m-grid-5">m-grid-5</div>
+    <div class="m-grid-20">m-grid-20</div><div class="m-grid-4">m-grid-4</div>
+    <div class="m-grid-21">m-grid-21</div><div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-22">m-grid-22</div><div class="m-grid-2">m-grid-2</div>
+    <div class="m-grid-23">m-grid-23</div><div class="m-grid-1">m-grid-1</div>
+    <div class="m-grid-24">m-grid-24</div>
+</div>
+
+	</div>
+	<div class="markrun-pre">
+	<pre><code>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-1"</span>&gt;</span>m-grid-1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-23"</span>&gt;</span>m-grid-23<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-2"</span>&gt;</span>m-grid-2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-22"</span>&gt;</span>m-grid-22<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-21"</span>&gt;</span>m-grid-21<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-4"</span>&gt;</span>m-grid-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-20"</span>&gt;</span>m-grid-20<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-5"</span>&gt;</span>m-grid-5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-19"</span>&gt;</span>m-grid-19<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-6"</span>&gt;</span>m-grid-6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-18"</span>&gt;</span>m-grid-18<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-7"</span>&gt;</span>m-grid-7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-17"</span>&gt;</span>m-grid-17<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-8"</span>&gt;</span>m-grid-8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-16"</span>&gt;</span>m-grid-16<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-9"</span>&gt;</span>m-grid-9<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-15"</span>&gt;</span>m-grid-15<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-10"</span>&gt;</span>m-grid-10<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-14"</span>&gt;</span>m-grid-14<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-11"</span>&gt;</span>m-grid-11<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-13"</span>&gt;</span>m-grid-13<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-12"</span>&gt;</span>m-grid-12<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-12"</span>&gt;</span>m-grid-12<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-13"</span>&gt;</span>m-grid-13<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-11"</span>&gt;</span>m-grid-11<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-14"</span>&gt;</span>m-grid-14<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-10"</span>&gt;</span>m-grid-10<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-15"</span>&gt;</span>m-grid-15<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-9"</span>&gt;</span>m-grid-9<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-16"</span>&gt;</span>m-grid-16<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-8"</span>&gt;</span>m-grid-8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-17"</span>&gt;</span>m-grid-17<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-7"</span>&gt;</span>m-grid-7<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-18"</span>&gt;</span>m-grid-18<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-6"</span>&gt;</span>m-grid-6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-19"</span>&gt;</span>m-grid-19<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-5"</span>&gt;</span>m-grid-5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-20"</span>&gt;</span>m-grid-20<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-4"</span>&gt;</span>m-grid-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-21"</span>&gt;</span>m-grid-21<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-22"</span>&gt;</span>m-grid-22<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-2"</span>&gt;</span>m-grid-2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-23"</span>&gt;</span>m-grid-23<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-1"</span>&gt;</span>m-grid-1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-24"</span>&gt;</span>m-grid-24<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+	</div>
+</div>
+<h2 id="4-20">4 20</h2>
+<div class="markrun markrun--html" >
+	<div class="markrun-code" >
+		
+<div class="m-grid">
+    <div class="m-grid-4">m-grid-4</div>
+    <div class="m-grid-20">m-grid-20</div>
+</div>
+
+	</div>
+	<div class="markrun-pre">
+	<pre><code>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-4"</span>&gt;</span>m-grid-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-20"</span>&gt;</span>m-grid-20<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+	</div>
+</div>
+<h2 id="3-3-3-3-3-3-3-3">3 3 3 3 3 3 3 3</h2>
+<div class="markrun markrun--html" >
+	<div class="markrun-code" >
+		
+<div class="m-grid">
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+    <div class="m-grid-3">m-grid-3</div>
+</div>
+
+	</div>
+	<div class="markrun-pre">
+	<pre><code>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"m-grid-3"</span>&gt;</span>m-grid-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+	</div>
+</div>
+<style>
+/* 用于演示的样式 */
+.m-grid-1,
+.m-grid-2,
+.m-grid-3,
+.m-grid-4,
+.m-grid-5,
+.m-grid-6,
+.m-grid-7,
+.m-grid-8,
+.m-grid-9,
+.m-grid-10,
+.m-grid-11,
+.m-grid-12,
+.m-grid-13,
+.m-grid-14,
+.m-grid-15,
+.m-grid-16,
+.m-grid-17,
+.m-grid-18,
+.m-grid-19,
+.m-grid-20,
+.m-grid-21,
+.m-grid-22,
+.m-grid-23,
+.m-grid-24 {
+    margin-bottom: 5px;
+    height: 20px;
+    line-height:20px;
+    color:white;
+    font-size:12px;
+}
+.m-grid-1,
+.m-grid-2,
+.m-grid-3,
+.m-grid-4,
+.m-grid-5,
+.m-grid-6,
+.m-grid-7,
+.m-grid-8,
+.m-grid-9,
+.m-grid-10,
+.m-grid-11,
+.m-grid-12 {
+    background-color:#99CCFF;
+    box-shadow:inset 0px 0px 5px #44a0fb;
+}
+.m-grid-13,
+.m-grid-14,
+.m-grid-15,
+.m-grid-16,
+.m-grid-17,
+.m-grid-18,
+.m-grid-19,
+.m-grid-20,
+.m-grid-21,
+.m-grid-22,
+.m-grid-23,
+.m-grid-24  {
+    background-color:#0099CC;
+    box-shadow:inset 0px 0px 5px #0A6586;
+}
+</style>
+
+</body>
+</html>
